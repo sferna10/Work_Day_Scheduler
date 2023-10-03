@@ -16,7 +16,7 @@ setTimeout(function(){
 });
 
 function hourUpdater(){
-    var currentHour = dayjs().subtract(1,'hour').hour();
+    var currentHour = dayjs().hour();
       
     $('.time-block').each(function(){
         var blockHour = parseInt($(this).attr('id').split('-')[1]);
