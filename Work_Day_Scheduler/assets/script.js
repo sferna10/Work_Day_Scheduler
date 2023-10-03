@@ -1,6 +1,7 @@
-$(document).ready(function (){
-$('.saveBtn').on('click', function(){
-})
+$(document).ready(function() {
+$('.saveBtn').on('click'), function(){
+  
+}
 var value = $(this).siblings('.description').val();
 var time = $(this).parent().attr('id');
  
@@ -15,7 +16,7 @@ setTimeout(function(){
 });
 
 function hourUpdater(){
-    var currentHour = dayjs().subtract('hours').hour();
+    var currentHour = dayjs().subtract(1,'hour').hour();
       
     $('.time-block').each(function(){
         var blockHour = parseInt($(this).attr('id').split('-')[1]);
@@ -46,7 +47,7 @@ function hourUpdater(){
     $('#hour-16 .description').val(localStorage.getItem('hour-16'));
     $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
-$('currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
+$('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
   
 
 
