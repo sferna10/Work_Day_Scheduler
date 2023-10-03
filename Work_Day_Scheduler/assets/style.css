@@ -33,7 +33,7 @@ textarea{
     background-color: red;
     color: white;
 }
-.btn{
-    backgroung-color: rgb(69, 250, 69);
+.saveBtn{
+    background-color: blue;
     color: white;
 }
