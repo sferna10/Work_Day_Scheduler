@@ -1,0 +1,39 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size:18px;
+}
+textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: rgb(235, 242, 235);
+    border-left: 1px solid rgb(28, 21, 21);
+    padding: 10px;
+}
+.description{
+    white-space: pre-wrap;   
+}
+
+.time block{
+    border-radius: 15px;
+}
+.row {
+    border-top:  1px solid rgb(75, 53, 53);
+}
+.hour{
+    background-color:#ffffff;
+    color: blue;
+    border-top: 1px dashed #000000;
+}
+.past{
+    background-color: #d3d3d3;
+    color: rgb(247, 245, 245);
+}
+.present{
+    background-color: red;
+    color: white;
+}
+.btn{
+    backgroung-color: rgb(69, 250, 69);
+    color: white;
+}
