@@ -48,7 +48,7 @@ function hourUpdater(){
     $('#hour-17 .description').val(localStorage.getItem('hour-17'));
     $('#hour-18 .description').val(localStorage.getItem('hour-18'));
 
-$('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
+$('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY h:mm A'));
   
 
 
