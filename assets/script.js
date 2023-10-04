@@ -5,15 +5,30 @@ $('.saveBtn').on('click'), function(){
 var value = $(this).siblings('.description').val();
 var time = $(this).parent().attr('id');
  
-localStorage.setItem(time,value);
+function saveActivityToStorage(activity) {
+    localStorage.setItem('activity', JSON.stringify(activity));
 
-$('.notification').addClass('hide');
+function printActivitiesInfo() {
+activityDisplayEl.empty();
+}
+
+var activityDisplay = parseInt($(this).attr('data-index'));
+var activity = readActivityFromStorage();
+activity.splice(activityIndex, 1);
+saveActivityToStorage(Activity);  
+
+printActivitiesInfo();
+} 
+
+//$('.notification').addClass('hide');
 
 setTimeout(function(){
     $('.notification').removeClass('show');
 }, 5000);
 
 });
+
+
 
 function hourUpdater(){
     var currentHour = dayjs().hour();
