@@ -7,7 +7,7 @@ var time = $(this).parent().attr('id');
  
 localStorage.setItem(time,value);
 
-$('.notification').addClass('show');
+$('.notification').addClass('hide');
 
 setTimeout(function(){
     $('.notification').removeClass('show');
