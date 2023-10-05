@@ -1,4 +1,5 @@
 body {
+  background-color:rgb(252, 241, 225);
   font-family: "Inter", sans-serif;
   font-size: 18px;
 }
@@ -33,16 +34,15 @@ textarea {
   background-color: red;
   color: white;
 }
-.future{
+.future {
   background-color: chartreuse;
-  color: white
+  color: white;
 }
 .saveBtn {
   background-color: rgb(0, 145, 255);
   color: white;
-
 }
-.lead{
+.lead {
   font-family: "Inter";
   font-size: 28px;
 }
