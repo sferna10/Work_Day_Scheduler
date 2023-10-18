@@ -3,7 +3,7 @@
 
 ## Description
 
-Calendar application that allows a user  to save events for each hour of a typical working day (9 a.m. - 5 p.m.).
+Calendar application that allows a user  to save events for each hour of a typical working day (9 a.m. - 6 p.m.).
  
 ## Table of Contents
 
