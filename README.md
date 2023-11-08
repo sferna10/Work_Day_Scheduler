@@ -22,6 +22,7 @@ It requires Day.js and JQuery.
 
 ## Usage
 
+<img width="420" alt="Capture" src="https://github.com/sferna10/Work_Day_Scheduler/assets/139423719/0a4c71e5-db8a-489c-a1ed-99f70da64597">
 
 The application can be accessed [here](https://sferna10.github.io/Work_Day_Scheduler/).
 
