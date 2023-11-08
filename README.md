@@ -22,15 +22,21 @@ It requires Day.js and JQuery.
 
 ## Usage
 
+<<<<<<< HEAD
 
 The application can be accessed [here](https://sferna10.github.io/Work_Day_Scheduler/).
 
 ![ShotScreen Calendar.]( https://sferna10.github.io/Work_Day_Scheduler/).
+=======
+The application can be accessed [here](https://sferna10.github.io/Work_Day_Scheduler/).
+
+[ShotScreen Calendar.]( https://sferna10.github.io/Work_Day_Scheduler/).
+>>>>>>> 21374785266a5dfd4b09325bc2b7a34852b666fe
 
 
 When the user opens the planner, the current day is displayed at the top of the calendar. The day calendar is presented by time blocks for standard business hours of 9:00 a.m. to 6:00 p.m. The current hour is colored in red color, the past hours are colored in grey color, and the future hours are colored in green color.
 
-![The profile creation screen.](/assets/images/Capture.PNG)
+[The profile creation screen.](./
 
 ## License 
     
