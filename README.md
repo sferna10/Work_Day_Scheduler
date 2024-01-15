@@ -24,7 +24,8 @@ It requires Day.js and JQuery.
 
 The application can be accessed![here](https://sferna10.github.io/Work_Day_Scheduler/).
 
-<img width="552" alt="Screenshot 2024-01-14 at 10 30 47 PM" src="https://github.com/sferna10/Work_Day_Scheduler/assets/139423719/4190168e-5301-4187-af56-4d397973dfab">
+
+<img width="552" alt="Screenshot 2024-01-14 at 10 30 47 PM" src="https://github.com/sferna10/Work_Day_Scheduler/assets/139423719/05c42026-bb26-41e9-9721-66cd922ff336">
 
 
 
